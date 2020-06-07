@@ -1,6 +1,6 @@
 ### Projects made while Learning from various sources
 
-## Notes App:
+## [Notes App](https://github.com/1UC1F3R616/Node.js-Learning-Projects/tree/master/notes-app):
 - Description: A colorfull cli application to add | remove | view | read, the notes
 - DB: Local json file
 - Tags: Argument Parsing, CLI, Colorfull CLI
