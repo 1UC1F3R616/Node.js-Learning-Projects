@@ -1,2 +1,1 @@
-# Image-Feature-Extraction-Using-Cluster-Computing
-PDC | IWP | IP | AppDev | WebDev | BrowserExtentionDev | CluserComputing
+- Projects made while Learning from various sources
