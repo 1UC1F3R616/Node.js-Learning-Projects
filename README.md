@@ -18,7 +18,7 @@ node app.js list
 node app.js read --title="read this title"
 ```
 
-## [Weather-App](https://github.com/1UC1F3R616/Node.js-Learning-Projects/tree/master/weather-app)
+## [Weather App](https://github.com/1UC1F3R616/Node.js-Learning-Projects/tree/master/weather-app)
 - Hosted Web-App [here](https://weather-app763.herokuapp.com/)
 ```txt
 Maybe Removed Now
