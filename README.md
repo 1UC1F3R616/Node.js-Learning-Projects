@@ -34,3 +34,20 @@ npm install
 ```
 npm run start
 ```
+
+## [Task Manager APIs](https://github.com/1UC1F3R616/task-manager-api)
+- Hosted Web-App [here](https://task-app-kush616.herokuapp.com)
+```txt
+Maybe Removed Now
+```
+- Description: Collection of 16 API Endpoints for user and their tasks
+- Tags: Express, Web-App, API, MongoDB, SendGrid, Mongoose, JWT
+- DB: MongoDB Atlas
+- Instructions to Run
+```bash
+# cd to task-manager
+npm install
+node src/index.js# production mode
+# for dev mode --> Install with dev dependencies --> npm run dev
+````
+
