@@ -41,7 +41,7 @@ npm run start
 Maybe Removed Now
 ```
 - Description: Collection of 16 API Endpoints for user and their tasks
-- Tags: Express, Web-App, API, MongoDB, SendGrid, Mongoose, JWT
+- Tags: Express, Web-App, API, MongoDB, SendGrid, Mongoose, JWT, jestjs
 - DB: MongoDB Atlas
 - Postman API docs: [here](https://documenter.getpostman.com/view/9118595/Szzn7c69?version=latest)
 - Instructions to Run
