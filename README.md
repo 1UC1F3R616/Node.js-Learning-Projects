@@ -52,3 +52,17 @@ node src/index.js# production mode
 # for dev mode --> Install with dev dependencies --> npm run dev
 ````
 
+## [Chat App using Socket Programming](https://github.com/1UC1F3R616/chat-app)
+- Hosted Web-App [here](https://chatapp616.herokuapp.com/)
+```txt
+Maybe Removed Now
+```
+- Description: Chat App written using sockets.io with frontend part also done
+- Tags: Web-App, socket.io, frontend
+- Instructions to Run
+```bash
+# cd to chat-app
+npm install
+npm run start# production mode
+# for dev mode --> Install with dev dependencies --> npm run dev
+````
