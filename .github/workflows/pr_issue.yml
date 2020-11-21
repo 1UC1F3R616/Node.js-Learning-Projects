@@ -1,4 +1,4 @@
-name: Create issue on pr
+name: Create issue on dependabot pr
 on:
 - pull_request
 jobs:
@@ -12,6 +12,6 @@ jobs:
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
         --header 'content-type: application/json' \
         --data '{
-          "title": "Automated issue for pr made",
-          "body": "need to add an if check so create an issue with pr number only when it is dependant bot \n pr is ${{ github.ref }} "
+          "title": "Verify for any breaking changes in PR made by ${{ github.actor }}",
+          "body": "- Kindly check if new dependencies are not introducing any breaking changes.\n- Ref: ${{ github.ref }}"
           }'
