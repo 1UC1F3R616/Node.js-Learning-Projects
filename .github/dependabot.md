@@ -1,7 +1,7 @@
 ---
-title: Someone
-assignees:
+name: Ecosystem-Events Daily Stand-up Issue
+title: Example
 labels: bug
 ---
 
-Someone just pushed, oh no! Here's who did it:.
+Hello! {{ env.EXAMPLE }}
