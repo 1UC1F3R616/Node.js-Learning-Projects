@@ -5,7 +5,7 @@ jobs:
   create_commit:
     runs-on: ubuntu-latest
     steps:
-    - name: Create issue using REST API
+    - name: Create issue using REST API ${{ github. }}
       run: |
         curl --request POST \
         --url https://api.github.com/repos/${{ github.repository }}/issues \
@@ -13,5 +13,5 @@ jobs:
         --header 'content-type: application/json' \
         --data '{
           "title": "Automated issue for pr made",
-          "body": "need to add an if check so create an issue with pr number only when it is dependant bot"
+          "body": "need to add an if check so create an issue with pr number only when it is dependant bot \n pr is ${{ github.ref }} "
           }'
