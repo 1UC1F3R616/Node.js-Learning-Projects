@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Create issue using REST API
-      if: contains(github.actor, 1UC1F3R616)
+      if: contains(github.actor, '1UC1F3R616')
       run: |
         curl --request POST \
         --url https://api.github.com/repos/${{ github.repository }}/issues \
