@@ -1,2 +1,6 @@
-Dependabot has created a pr, kindly test and merge
-here is the pr number #29
+---
+title: Someone just pushed
+assignees: 1UC1F3R616
+labels: bug, enhancement
+---
+Someone just pushed, oh no! Here's who did it: {{ payload.sender.login }}.
