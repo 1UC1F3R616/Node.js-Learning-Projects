@@ -14,5 +14,7 @@ jobs:
         --header 'content-type: application/json' \
         --data '{
           "title": "Verify for any breaking changes in PR made by ${{ github.actor }}",
-          "body": "- Kindly check if new dependencies are not introducing any breaking changes.\n- Ref: ${{ github.ref }}"
+          "body": "- Kindly check if new dependencies are not introducing any breaking changes.\n- Ref: ${{ github.ref }}",
+          "labels": ["dependencies", "good first issue"],
+          "assignees": [""]
           }'
