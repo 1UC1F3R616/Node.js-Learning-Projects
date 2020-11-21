@@ -1,2 +1,7 @@
-Dependabot has created a pr, kindly test and merge
-here is the pr number #29
+---
+name: Ecosystem-Event
+title: Example
+
+---
+
+Hello! bro
