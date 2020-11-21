@@ -5,7 +5,7 @@ jobs:
   create_commit:
     runs-on: ubuntu-latest
     steps:
-    - name: Create issue using REST API ${{ github. }}
+    - name: Create issue using REST API
       run: |
         curl --request POST \
         --url https://api.github.com/repos/${{ github.repository }}/issues \
