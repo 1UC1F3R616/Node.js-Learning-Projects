@@ -2,6 +2,7 @@ on: [pull_request]
 name: dependabot bot issue
 jobs:
   stuff:
+    runs-on: ubuntu-latest
     steps:
       - uses: JasonEtco/create-an-issue@v2
         env:
