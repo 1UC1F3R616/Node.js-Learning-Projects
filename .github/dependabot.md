@@ -1,7 +1,8 @@
 ---
-name: Ecosystem-Events Daily Stand-up Issue
+name: Ecosystem-Event
 title: Example
 labels: bug
+
 ---
 
-Hello! {{ env.EXAMPLE }}
+Hello! bro
